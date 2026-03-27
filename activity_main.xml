@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp">
- <TextView
+<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registro de Estudiante"
@@ -14,10 +14,27 @@
         android:gravity="center"
         android:layout_marginBottom="20dp"/>
 
-    <EditText
+<EditText
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nombre"
         android:inputType="textPersonName"/>
+
+<EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"/>
+
+<EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
 
